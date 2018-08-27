@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #25ad90;
+  font-family: "sans-serif"; }
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto; }
+
+.wrapper-signup {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #2d3238; }
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column; }
+
+.in {
+  width: 300px; }
+
+.sign-up {
+  width: 300px;
+  background-color: #3c4147; }
+
+.form-login > .field-input {
+  margin-top: 10px; }
+
+.form-text {
+  color: white;
+  font-size: 12px;
+  position: relative;
+  top: 15px; }
+
+.form-text > a {
+  color: white;
+  text-decoration: none; }
+
+/* =================== Button STyle =============== */
+
+button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 30px;
+  cursor: pointer;
+  border: none; }
+
+.btn-in {
+  color: #25ae90;
+  background-color: #edeef2;
+  font-weight: bold; }
+
+.btn-reg {
+  background-color: #ea4c89;
+  color: white;
+  font-weight: bold; }
+
+/* ============ Input STyle ============== */
+
+input[type=text] {
+  padding: 10px;
+  border: none; }
+
+input[type=password] {
+  padding: 10px;
+  border: none; }
+
+input[type=submit] {
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  color: #25ad90;
+  font-weight: bold;
+  font-family: "sans-serif"; }
+
+/* ============== Responsive ============= */
+@media screen and (max-width: 800px) {
+  .in {
+    width: 200px; }
+  .sign-up {
+    width: 200px; } }
